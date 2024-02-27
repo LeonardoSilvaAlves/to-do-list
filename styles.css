@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-de-ciencia-de-tecnologia-medica-em-azul-com-espaco-em-branco_53876-117739.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.modo-noturno {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #e0f2e9;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #000000;
+}
